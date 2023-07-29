@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Pertemuan 8</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+    <h5>Kamu ingin menjumlahkan apa?</h5>
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <br />
+    <label>nilai 1 : </label> <br />
+    <input type="text" id="nilai1" placeholder="Masukan Nilai Pertama" /><br />
+    <label>nilai 2 : </label> <br />
+    <input type="text" id="nilai2" placeholder="Masukan Nilai Kedua" /> <br />
+    <button onclick="calculate()">Jumlahkan</button><br />
+    <input type="text" id="result" disabled />
+  </body>
+</div>
+</html>
